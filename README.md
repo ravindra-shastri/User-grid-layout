@@ -1,4 +1,4 @@
-<h3> User-grid-layout</h3>
+<h2> User-grid-layout</h2>
 
 This is a User layout in a grid view
 

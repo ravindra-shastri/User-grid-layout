@@ -1,0 +1,7 @@
+.dashboard-container {
+  width: 54%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}

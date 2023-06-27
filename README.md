@@ -1,4 +1,4 @@
-<h2> User-grid-layout</h2>
+<h1> User-grid-layout</h1>
 
 This is a User layout in a grid view
 
@@ -8,7 +8,7 @@ This is a User layout in a grid view
 
 - User can see user data in grid view.
 - To see the user details  click on the Get user button on the right top corner of the navbar.
-- 
+
 ## Build/Run
 
 #### Requirements

@@ -7,7 +7,7 @@ This is a User layout in a grid view
 #### Features
 
 - User can see user data in grid view.
-- To see the user details  click on the Get user button on the right top corner of the navbar.
+- To see the user details, Click on the Get user button on the right top corner of the navbar.
 
 ## Build/Run
 

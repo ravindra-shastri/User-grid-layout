@@ -4,6 +4,7 @@ import UserData from './components/UserData';
 import axios from 'axios';
 import './style.css';
 
+const URL = 'https://reqres.in/api/users?page=1';
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -13,7 +14,7 @@ const App = () => {
   const getUserData = () => {
     setNoData(false);
     setLoading(true);
-    axios.get('https://reqres.in/api/users?page=1').then(({ data: { data } }) => {
+    axios.get(URL).then(({ data: { data } }) => {
       setLoading(false);
       setData(data);
     });
@@ -25,13 +26,11 @@ const App = () => {
         !nodata ? (
           <UserData data={data} loading={loading} />
         ) : (
-          <h2 className='no-data'>
+          <h1 className='no-data'>
             Click on Get user button to get UserData
-          </h2>
+          </h1>
         )
       }
-
-
     </div>
   );
 }
